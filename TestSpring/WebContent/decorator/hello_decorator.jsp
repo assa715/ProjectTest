@@ -21,7 +21,7 @@
 	    <div style="width:25%; height:50px; background:red; float:left;">게임 다운로드</div>
     </div>
 	<hr/>
-	<div style="height:800px">
+	<div style="height:500px">
 	<decorator:body />
 	</div>
 	<hr/>
