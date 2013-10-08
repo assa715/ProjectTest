@@ -8,7 +8,7 @@
 <script src="/TestSpring/decorator/jquery-1.10.1.min.js"></script>
 <link href="/TestSpring/decorator/style.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here<decorator:title /></title>
+<title><decorator:title /></title>
 <script type="text/javascript">
 $(document).ready(function(){  
   
@@ -87,7 +87,8 @@ $(document).ready(function(){
 	</li>  
 </ul>
 </div>
-</div>
 <decorator:body />
+</div>
+
 </body>
 </html>
