@@ -4,13 +4,25 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+	<style type="text/css">
+	#id {float:left;}
+	#pass {
+		float:left;
+		padding-left: 15px;
+		padding-right: 20px;
+	}
+	#sub {
+		float:left;
+		
+		}
+	</style>
 <title>로그인</title>
 </head>
 <body>
-	<form name="sessionText" method="post" action="login.do">
-		ID : <input type="text" name="userId" /><br />
-		PASS : <input type="password" name="password" /><br /> 
-		<input type="submit" value="로그인" />
+	<form id="lgform" name="sessionText" method="post" action="login.do">
+		<div id="id">ID : <input  type="text" name="userId" /></div>
+		<div id="pass">PASS : <input type="password" name="password" /></div> 
+		<input id="sub" type="submit" value="로그인" />
 	</form>
 </body>
 </html>
