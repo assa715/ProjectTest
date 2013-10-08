@@ -1,12 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<%@ taglib prefix="decorator" uri="http://www.opensymphony.com/sitemesh/decorator" %>
+    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<script src="jquery-1.10.1.min.js"></script>
-<link href="style.css" rel="stylesheet" />
+<script src="/TestSpring/decorator/jquery-1.10.1.min.js"></script>
+<link href="/TestSpring/decorator/style.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<title>Insert title here<decorator:title /></title>
 <script type="text/javascript">
 $(document).ready(function(){  
   
@@ -30,6 +32,7 @@ $(document).ready(function(){
   
 });  
 </script>
+<decorator:head />
 </head>
 <body>
 <div class="container">
@@ -85,6 +88,6 @@ $(document).ready(function(){
 </ul>
 </div>
 </div>
-
+<decorator:body />
 </body>
 </html>
